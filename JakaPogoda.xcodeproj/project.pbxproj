@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F21E2F1D107B8000056BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F21E2E1D107B8000056BA9 /* AppDelegate.swift */; };
+		42F21E311D107B8000056BA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F21E301D107B8000056BA9 /* ViewController.swift */; };
+		42F21E341D107B8000056BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F21E321D107B8000056BA9 /* Main.storyboard */; };
+		42F21E361D107B8000056BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F21E351D107B8000056BA9 /* Assets.xcassets */; };
+		42F21E391D107B8000056BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F21E371D107B8000056BA9 /* LaunchScreen.storyboard */; };
+		42F21E441D107B8000056BA9 /* JakaPogodaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F21E431D107B8000056BA9 /* JakaPogodaTests.swift */; };
+		42F21E4F1D107B8000056BA9 /* JakaPogodaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F21E4E1D107B8000056BA9 /* JakaPogodaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42F21E401D107B8000056BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F21E231D107B8000056BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F21E2A1D107B8000056BA9;
+			remoteInfo = JakaPogoda;
+		};
+		42F21E4B1D107B8000056BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F21E231D107B8000056BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F21E2A1D107B8000056BA9;
+			remoteInfo = JakaPogoda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42F21E2B1D107B8000056BA9 /* JakaPogoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JakaPogoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F21E2E1D107B8000056BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42F21E301D107B8000056BA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42F21E331D107B8000056BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42F21E351D107B8000056BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42F21E381D107B8000056BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42F21E3A1D107B8000056BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F21E3F1D107B8000056BA9 /* JakaPogodaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JakaPogodaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F21E431D107B8000056BA9 /* JakaPogodaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakaPogodaTests.swift; sourceTree = "<group>"; };
+		42F21E451D107B8000056BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F21E4A1D107B8000056BA9 /* JakaPogodaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JakaPogodaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F21E4E1D107B8000056BA9 /* JakaPogodaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakaPogodaUITests.swift; sourceTree = "<group>"; };
+		42F21E501D107B8000056BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F21E281D107B8000056BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F21E3C1D107B8000056BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F21E471D107B8000056BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F21E221D107B8000056BA9 = {
+			isa = PBXGroup;
+			children = (
+				42F21E2D1D107B8000056BA9 /* JakaPogoda */,
+				42F21E421D107B8000056BA9 /* JakaPogodaTests */,
+				42F21E4D1D107B8000056BA9 /* JakaPogodaUITests */,
+				42F21E2C1D107B8000056BA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42F21E2C1D107B8000056BA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F21E2B1D107B8000056BA9 /* JakaPogoda.app */,
+				42F21E3F1D107B8000056BA9 /* JakaPogodaTests.xctest */,
+				42F21E4A1D107B8000056BA9 /* JakaPogodaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F21E2D1D107B8000056BA9 /* JakaPogoda */ = {
+			isa = PBXGroup;
+			children = (
+				42F21E2E1D107B8000056BA9 /* AppDelegate.swift */,
+				42F21E301D107B8000056BA9 /* ViewController.swift */,
+				42F21E321D107B8000056BA9 /* Main.storyboard */,
+				42F21E351D107B8000056BA9 /* Assets.xcassets */,
+				42F21E371D107B8000056BA9 /* LaunchScreen.storyboard */,
+				42F21E3A1D107B8000056BA9 /* Info.plist */,
+			);
+			path = JakaPogoda;
+			sourceTree = "<group>";
+		};
+		42F21E421D107B8000056BA9 /* JakaPogodaTests */ = {
+			isa = PBXGroup;
+			children = (
+				42F21E431D107B8000056BA9 /* JakaPogodaTests.swift */,
+				42F21E451D107B8000056BA9 /* Info.plist */,
+			);
+			path = JakaPogodaTests;
+			sourceTree = "<group>";
+		};
+		42F21E4D1D107B8000056BA9 /* JakaPogodaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42F21E4E1D107B8000056BA9 /* JakaPogodaUITests.swift */,
+				42F21E501D107B8000056BA9 /* Info.plist */,
+			);
+			path = JakaPogodaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F21E2A1D107B8000056BA9 /* JakaPogoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F21E531D107B8000056BA9 /* Build configuration list for PBXNativeTarget "JakaPogoda" */;
+			buildPhases = (
+				42F21E271D107B8000056BA9 /* Sources */,
+				42F21E281D107B8000056BA9 /* Frameworks */,
+				42F21E291D107B8000056BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JakaPogoda;
+			productName = JakaPogoda;
+			productReference = 42F21E2B1D107B8000056BA9 /* JakaPogoda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42F21E3E1D107B8000056BA9 /* JakaPogodaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F21E561D107B8000056BA9 /* Build configuration list for PBXNativeTarget "JakaPogodaTests" */;
+			buildPhases = (
+				42F21E3B1D107B8000056BA9 /* Sources */,
+				42F21E3C1D107B8000056BA9 /* Frameworks */,
+				42F21E3D1D107B8000056BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F21E411D107B8000056BA9 /* PBXTargetDependency */,
+			);
+			name = JakaPogodaTests;
+			productName = JakaPogodaTests;
+			productReference = 42F21E3F1D107B8000056BA9 /* JakaPogodaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42F21E491D107B8000056BA9 /* JakaPogodaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F21E591D107B8000056BA9 /* Build configuration list for PBXNativeTarget "JakaPogodaUITests" */;
+			buildPhases = (
+				42F21E461D107B8000056BA9 /* Sources */,
+				42F21E471D107B8000056BA9 /* Frameworks */,
+				42F21E481D107B8000056BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F21E4C1D107B8000056BA9 /* PBXTargetDependency */,
+			);
+			name = JakaPogodaUITests;
+			productName = JakaPogodaUITests;
+			productReference = 42F21E4A1D107B8000056BA9 /* JakaPogodaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F21E231D107B8000056BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kamil Wójcik";
+				TargetAttributes = {
+					42F21E2A1D107B8000056BA9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					42F21E3E1D107B8000056BA9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42F21E2A1D107B8000056BA9;
+					};
+					42F21E491D107B8000056BA9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 42F21E2A1D107B8000056BA9;
+					};
+				};
+			};
+			buildConfigurationList = 42F21E261D107B8000056BA9 /* Build configuration list for PBXProject "JakaPogoda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F21E221D107B8000056BA9;
+			productRefGroup = 42F21E2C1D107B8000056BA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F21E2A1D107B8000056BA9 /* JakaPogoda */,
+				42F21E3E1D107B8000056BA9 /* JakaPogodaTests */,
+				42F21E491D107B8000056BA9 /* JakaPogodaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F21E291D107B8000056BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F21E391D107B8000056BA9 /* LaunchScreen.storyboard in Resources */,
+				42F21E361D107B8000056BA9 /* Assets.xcassets in Resources */,
+				42F21E341D107B8000056BA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F21E3D1D107B8000056BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F21E481D107B8000056BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F21E271D107B8000056BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F21E311D107B8000056BA9 /* ViewController.swift in Sources */,
+				42F21E2F1D107B8000056BA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F21E3B1D107B8000056BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F21E441D107B8000056BA9 /* JakaPogodaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F21E461D107B8000056BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F21E4F1D107B8000056BA9 /* JakaPogodaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42F21E411D107B8000056BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F21E2A1D107B8000056BA9 /* JakaPogoda */;
+			targetProxy = 42F21E401D107B8000056BA9 /* PBXContainerItemProxy */;
+		};
+		42F21E4C1D107B8000056BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F21E2A1D107B8000056BA9 /* JakaPogoda */;
+			targetProxy = 42F21E4B1D107B8000056BA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42F21E321D107B8000056BA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F21E331D107B8000056BA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42F21E371D107B8000056BA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F21E381D107B8000056BA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F21E511D107B8000056BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42F21E521D107B8000056BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F21E541D107B8000056BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JakaPogoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.JakaPogoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42F21E551D107B8000056BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JakaPogoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.JakaPogoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42F21E571D107B8000056BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JakaPogodaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.JakaPogodaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JakaPogoda.app/JakaPogoda";
+			};
+			name = Debug;
+		};
+		42F21E581D107B8000056BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JakaPogodaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.JakaPogodaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JakaPogoda.app/JakaPogoda";
+			};
+			name = Release;
+		};
+		42F21E5A1D107B8000056BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JakaPogodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.JakaPogodaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JakaPogoda;
+			};
+			name = Debug;
+		};
+		42F21E5B1D107B8000056BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JakaPogodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.JakaPogodaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JakaPogoda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F21E261D107B8000056BA9 /* Build configuration list for PBXProject "JakaPogoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F21E511D107B8000056BA9 /* Debug */,
+				42F21E521D107B8000056BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F21E531D107B8000056BA9 /* Build configuration list for PBXNativeTarget "JakaPogoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F21E541D107B8000056BA9 /* Debug */,
+				42F21E551D107B8000056BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42F21E561D107B8000056BA9 /* Build configuration list for PBXNativeTarget "JakaPogodaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F21E571D107B8000056BA9 /* Debug */,
+				42F21E581D107B8000056BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42F21E591D107B8000056BA9 /* Build configuration list for PBXNativeTarget "JakaPogodaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F21E5A1D107B8000056BA9 /* Debug */,
+				42F21E5B1D107B8000056BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F21E231D107B8000056BA9 /* Project object */;
+}
