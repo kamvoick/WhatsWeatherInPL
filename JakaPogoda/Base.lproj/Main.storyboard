@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JakaPogoda" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,91 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newweather-01-iphone-wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="fSb-rn-KVE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jaka jest pogoda?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWl-Ch-flB">
+                                <rect key="frame" x="150" y="77" width="301" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="NbP-1o-DiF"/>
+                                    <constraint firstAttribute="width" constant="301" id="nbg-DP-AHL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wpisz miasto..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRa-oi-1MU">
+                                <rect key="frame" x="150" y="152" width="301" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="bqb-sc-1Bc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="np. Lublin, Warszawa, Kraków" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3gI-ay-zfX">
+                                <rect key="frame" x="150" y="189" width="301" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gHN-NS-hdY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0am-8Z-Fjb">
+                                <rect key="frame" x="150" y="227" width="301" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Nn0-7J-s1j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Sprawdź pogodę"/>
+                                <connections>
+                                    <action selector="sprawdźPogodęBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fge-OD-kWc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnm-cW-cDQ">
+                                <rect key="frame" x="150" y="265" width="301" height="165"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cnm-cW-cDQ" firstAttribute="top" secondItem="0am-8Z-Fjb" secondAttribute="bottom" constant="8" symbolic="YES" id="0qY-wd-wkX"/>
+                            <constraint firstAttribute="trailing" secondItem="fSb-rn-KVE" secondAttribute="trailing" id="6Db-dN-Vl7"/>
+                            <constraint firstItem="jRa-oi-1MU" firstAttribute="trailing" secondItem="3gI-ay-zfX" secondAttribute="trailing" id="AF7-yu-GAu"/>
+                            <constraint firstItem="3gI-ay-zfX" firstAttribute="trailing" secondItem="0am-8Z-Fjb" secondAttribute="trailing" id="Cxj-jm-Oh2"/>
+                            <constraint firstItem="fSb-rn-KVE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DJj-qL-yVj"/>
+                            <constraint firstItem="yWl-Ch-flB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="57" id="FMH-9b-aVV"/>
+                            <constraint firstItem="yWl-Ch-flB" firstAttribute="trailing" secondItem="jRa-oi-1MU" secondAttribute="trailing" id="Mvs-gT-eGU"/>
+                            <constraint firstItem="fSb-rn-KVE" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="P3X-rN-37h"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cnm-cW-cDQ" secondAttribute="bottom" constant="170" id="VvE-mb-k4x"/>
+                            <constraint firstItem="3gI-ay-zfX" firstAttribute="leading" secondItem="0am-8Z-Fjb" secondAttribute="leading" id="Xyx-JT-z2W"/>
+                            <constraint firstItem="fSb-rn-KVE" firstAttribute="centerX" secondItem="0am-8Z-Fjb" secondAttribute="centerX" id="bds-zB-lxM"/>
+                            <constraint firstItem="yWl-Ch-flB" firstAttribute="leading" secondItem="jRa-oi-1MU" secondAttribute="leading" id="dCJ-ft-dxI"/>
+                            <constraint firstItem="fSb-rn-KVE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="e8F-9d-2jJ"/>
+                            <constraint firstItem="0am-8Z-Fjb" firstAttribute="leading" secondItem="cnm-cW-cDQ" secondAttribute="leading" id="fyn-4l-goe"/>
+                            <constraint firstItem="0am-8Z-Fjb" firstAttribute="trailing" secondItem="cnm-cW-cDQ" secondAttribute="trailing" id="iLC-06-oNU"/>
+                            <constraint firstItem="jRa-oi-1MU" firstAttribute="top" secondItem="yWl-Ch-flB" secondAttribute="bottom" constant="8" symbolic="YES" id="lZd-wO-tAE"/>
+                            <constraint firstItem="jRa-oi-1MU" firstAttribute="leading" secondItem="3gI-ay-zfX" secondAttribute="leading" id="mrT-g0-SXG"/>
+                            <constraint firstItem="3gI-ay-zfX" firstAttribute="top" secondItem="jRa-oi-1MU" secondAttribute="bottom" constant="8" symbolic="YES" id="rS0-b3-xMK"/>
+                            <constraint firstItem="0am-8Z-Fjb" firstAttribute="top" secondItem="3gI-ay-zfX" secondAttribute="bottom" constant="8" symbolic="YES" id="vZC-My-3TD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="jakaJestPogodaLbl" destination="yWl-Ch-flB" id="7xO-vf-uP8"/>
+                        <outlet property="opisLbl" destination="cnm-cW-cDQ" id="mv5-Hh-fvr"/>
+                        <outlet property="wpiszMiastoLbl" destination="jRa-oi-1MU" id="aCO-EY-7ju"/>
+                        <outlet property="wpiszMiastoTextLbl" destination="3gI-ay-zfX" id="5h0-J7-TTN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="380" y="337"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="newweather-01-iphone-wallpaper" width="640" height="960"/>
+    </resources>
 </document>
